@@ -95,3 +95,10 @@ body{
     background: lightgreen;
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 600px)
+{
+    .project-box{
+        width: 80vw;
+    }
+}
