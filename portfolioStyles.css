@@ -17,8 +17,8 @@ body{
 
 #profile-pic{
     margin: 300px auto 0;
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     border: 3px solid black;
     overflow: hidden;
     border-radius: 50%;
@@ -27,8 +27,8 @@ body{
 #profile-pic > img{
     height: 200%;
     width: auto;
-    margin-left: -55px;
-    margin-top: -175px;
+    margin-left: -40px;
+    margin-top: -100px;
 }
 
 #introduction > h2 {
