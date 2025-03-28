@@ -1,24 +1,33 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+    scroll-behavior: smooth;
+    }
+}
+
 body{
     box-sizing: content-box;
     margin: 0;
 }
 
 #introduction{
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    justify-content: flex-end;
 }
 
 #navigation{
-    height: 20%;
+    margin-top: 20px;
+    height: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 #navbar{
+    margin-left: 20px;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -28,17 +37,23 @@ body{
 }
 
 #navbar > li{
+    margin-left: 20px;
     width: 50%;
     height: 60%;
     font-size: 2rem;
 }
 
+#navbar > li:hover{
+    background: green;
+}
+
 #profile-icon{
-    height: 100%;
+    margin-left: 150px;
+    height: 80%;
 }
 
 #intro-header{
-    height: 2%;
+    height: 10px;
     background: green;
 }
 
@@ -136,6 +151,17 @@ a > i{
     font-size: 5rem;
 }
 
+@media only screen and (max-width: 1000px)
+{
+    #navbar{
+        margin-left: 10px;
+    }
+    #profile-icon{
+        margin-left: 10px;
+        height: 150px;
+    }
+}
+
 @media only screen and (max-width: 600px)
 {
     body{
@@ -143,5 +169,15 @@ a > i{
     }
     .project-box{
         width: 80vw;
+    }
+    a > i{
+        font-size: 3rem;
+    }
+    #navbar{
+        margin-left: 0;
+    }
+    #profile-icon{
+        margin-left: 0;
+        height: 100px;
     }
 }
