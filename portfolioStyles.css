@@ -100,9 +100,12 @@ a{
     color: inherit;
 }
 
+#project-tile > a{
+    transition: transform ease 500ms;
+}
+
 #project-tile > a:hover{
-    transform: translateY(-10px) !important;
-    transition: .8s !important;
+    transform: translateY(-10px);
 }
 
 
