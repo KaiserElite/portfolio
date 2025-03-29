@@ -9,14 +9,25 @@
         <title>Erik Le's Portfolio</title>
     </head>
     <body>
+        <div id="overlay" class="overlay">
+            <button type="button" id="closeMenuButton"><i class="fa-solid fa-xmark"></i></button>
+            <div class="overlay-content">
+                <a href="#introduction" onclick="closeMenu()">Introduction</a>
+                <a href="#projects" onclick="closeMenu()">Projects</a>
+                <a href="#contact" onclick="closeMenu()">Contact</a>
+            </div>
+        </div>
         <section id="introduction">
             <header id="intro-header"></header>
-            <section id="navigation">
+            <section class="navigation">
                 <img src="./GradPoro.png" id="profile-icon">
                 <ul id="navbar">
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+            </section>
+            <section class="dropdownNav">
+                <button type="button" id="dropdownButton"><i class="fa-solid fa-bars" style="font-size: 2rem"></i></button>
             </section>
             <section id="profile-pic">
                     <img src="./ErikPic.JPG">
@@ -25,7 +36,7 @@
                     Check out some projects I've worked on and I look forward from hearing from you in the future.</h2>
         </section>
         <section id="projects">
-            <h2 id="project-text">Here are some projects I've worked on.</h3>
+            <h2 id="project-text">Here are some projects I've worked on.</h2>
             <section id="project-tile">
                 <a href="./pokemonSearchApp.html" target="_blank">
                     <section class="project-box">
@@ -70,6 +81,9 @@
                 <a href="https://instagram.com/eriklebob" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
                 <a href="https://x.com/279bob" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
             </div>
+        </section>
+        <section>
+            <footer></footer>
         </section>
         <script src="./portfolioJavaScript.js"></script>
     </body>
