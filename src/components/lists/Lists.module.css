@@ -1,0 +1,15 @@
+.background {
+    background: lightblue;
+    max-width: 300px;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: none
+}

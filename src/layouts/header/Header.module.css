@@ -1,0 +1,16 @@
+.background{
+    /* background-image: url('../../src/assets/Banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0% center; */
+    height: 100vh;
+}
+
+.introduction {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
