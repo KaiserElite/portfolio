@@ -10,7 +10,7 @@ function CurrentProjects()
         <div className={styles.background}>
             <h2>Current Projects that I am working on</h2>
             <div className={styles.projects}>
-                <Projects title='Draw3' backgroundPath={Draw3} description='Trading card game deck builder and tournament organizer' urlLink='/portfolio/draw3info'></Projects>
+                <Projects title='Draw3' backgroundPath={Draw3} description='Trading card game deck builder and tournament organizer' urlLink='/portfolio/#draw3info'></Projects>
             </div>
         </div>
     )
