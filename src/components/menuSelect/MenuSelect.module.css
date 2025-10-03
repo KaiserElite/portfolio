@@ -1,5 +1,5 @@
 .background {
-    background: blue;
+    background: darkgray;
     position: absolute;
     top: 0;
     left: 0;
@@ -28,7 +28,7 @@
     height: 75px;
     font-size: 1.5em;
     padding-left: 20px;
-    background: red;
+    background: gray;
     text-align: bottom;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
