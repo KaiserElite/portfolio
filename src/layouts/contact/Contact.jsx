@@ -1,10 +1,10 @@
-import styles from './Hobbies.module.css'
+import styles from './Contact.module.css'
 
 function Hobbies()
 {
     return(
         <div>
-            <h2>My hobbies</h2>
+            <h2>Contact Me</h2>
         </div>
     )
 }

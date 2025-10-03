@@ -6,7 +6,7 @@ function Lists(props)
         <div className={styles.background}>
             <h3>{props.title}</h3>
             <ul>
-                {props.list.map(item => <li>{item}</li>)}
+                {props.list.map(item => <li key={item}>{item}</li>)}
             </ul>
         </div>
     )

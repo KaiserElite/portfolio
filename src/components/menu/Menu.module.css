@@ -1,0 +1,10 @@
+.background {
+    height: 100%;
+    display: flex;
+}
+
+.icon {
+    height: 50%;
+    width: auto;
+    margin: auto 0 auto 15px;
+}
